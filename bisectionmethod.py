@@ -1,8 +1,8 @@
-low = -1
-high = 3
-
+low = -10
+high = 10
+c = None
 def f(x):
-    return (x*x*x*x*x*x*x - 2)
+    return (x*x*x - 2)
 i = 0
 while (f(low) * f(high) < 0):
     c = (low + high)/2
